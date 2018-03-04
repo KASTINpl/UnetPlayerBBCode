@@ -34,7 +34,7 @@ class UnetPlayerBBCode
         else {
             $r .= "<p class=\"center-block text-center\"><a";
             if ($noFollow) $r .= " rel=\"nofollow\"";
-            $r .= " target=\"_blank\" href=\"$url_download\" class=\"btn btn-success btn-unet-download-link\"><i class=\"glyphicon glyphicon-download\"></i> Pobierz <strong>'.$url.'</strong></a></p>";
+            $r .= " target=\"_blank\" href=\"$url_download\" class=\"btn btn-success btn-unet-download-link\"><i class=\"glyphicon glyphicon-download\"></i> Pobierz <strong>$url</strong></a></p>";
         }
         $r .= "";
 
